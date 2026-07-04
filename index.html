@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Política de Privacidade - Naoto Dev</title>
+<title>Política de Privacidade - Oliver</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Instrument+Sans:wght@300;400;500;600&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -23,9 +23,9 @@
   --border:       rgba(196,151,58,0.18);
   --border-sub:   rgba(245,240,232,0.07);
   --sidebar-w:    272px;
-  --green:        #4caf82;
-  --green-dim:    rgba(76,175,130,0.08);
-  --green-border: rgba(76,175,130,0.25);
+  --olive:        #8A9A5B;
+  --olive-dim:    rgba(138,154,91,0.08);
+  --olive-border: rgba(138,154,91,0.25);
   --blue:         #4aa8d8;
   --blue-dim:     rgba(74,168,216,0.07);
   --blue-border:  rgba(74,168,216,0.25);
@@ -77,7 +77,7 @@ font-size: 0.65rem; font-family: 'DM Mono', monospace; color: var(--gold);
 .nav-badge {
 font-family: 'DM Mono', monospace; font-size: 0.57rem;
 letter-spacing: 0.14em; text-transform: uppercase;
-color: var(--navy-deep); background: var(--green); padding: 2px 8px;
+color: var(--navy-deep); background: var(--olive-dim); border: 1px solid var(--olive-border); padding: 2px 8px;
 }
 .nav-links { display: flex; gap: 28px; list-style: none; }
 .nav-links a {
@@ -106,10 +106,10 @@ flex-wrap: wrap; margin-bottom: 28px;
 }
 .hero-eyebrow {
 font-family: 'DM Mono', monospace; font-size: 0.65rem;
-letter-spacing: 0.24em; text-transform: uppercase; color: var(--green);
+letter-spacing: 0.24em; text-transform: uppercase; color: var(--olive);
 margin-bottom: 16px; display: flex; align-items: center; gap: 10px;
 }
-.hero-eyebrow::after { content: ''; width: 40px; height: 1px; background: var(--green); opacity: 0.4; }
+.hero-eyebrow::after { content: ''; width: 40px; height: 1px; background: var(--olive); opacity: 0.4; }
 .page-h1 {
 font-family: 'Cormorant Garamond', serif;
 font-size: clamp(2.4rem, 5vw, 4rem); font-weight: 300;
@@ -136,20 +136,20 @@ font-family: 'DM Mono', monospace; font-size: 0.6rem;
 letter-spacing: 0.12em; text-transform: uppercase;
 padding: 5px 12px; border: 1px solid;
 }
-.chip-green { border-color: var(--green-border); color: var(--green); background: var(--green-dim); }
+.chip-green { border-color: var(--olive-border); color: var(--olive); background: var(--olive-dim); }
 .chip-gold  { border-color: var(--gold-border);  color: var(--gold);  background: var(--gold-dim); }
 .chip-blue  { border-color: var(--blue-border);  color: var(--blue);  background: var(--blue-dim); }
 .chip::before { content: '✓'; font-size: 0.65rem; }
 
 .hero-notice {
-border: 1px solid var(--green-border);
-background: var(--green-dim);
+border: 1px solid var(--olive-border);
+background: var(--olive-dim);
 padding: 14px 20px;
 display: flex; align-items: flex-start; gap: 12px;
 }
 .notice-icon {
 font-size: 0.72rem; font-family: 'DM Mono', monospace;
-color: var(--green); letter-spacing: 0.1em; flex-shrink: 0;
+color: var(--olive); letter-spacing: 0.1em; flex-shrink: 0;
 margin-top: 1px; text-transform: uppercase;
 }
 .notice-text { font-size: 0.80rem; color: var(--muted); line-height: 1.65; }
@@ -179,7 +179,7 @@ scrollbar-color: var(--border) transparent;
 .sb-group { margin-bottom: 8px; }
 .sb-group-label {
 font-family: 'DM Mono', monospace; font-size: 0.57rem;
-letter-spacing: 0.2em; text-transform: uppercase; color: var(--green);
+letter-spacing: 0.2em; text-transform: uppercase; color: var(--olive);
 padding: 10px 20px 6px; display: block; opacity: 0.75;
 }
 .sb-links { list-style: none; }
@@ -192,12 +192,12 @@ transition: all 0.15s; line-height: 1.4;
 }
 .sb-links li a:hover { color: var(--cream); background: rgba(245,240,232,0.04); }
 .sb-links li a.active {
-color: var(--green); border-left-color: var(--green);
-background: var(--green-dim);
+color: var(--olive); border-left-color: var(--olive);
+background: var(--olive-dim);
 }
 .sb-num {
 font-family: 'DM Mono', monospace; font-size: 0.58rem;
-color: var(--green); opacity: 0.6; flex-shrink: 0; width: 16px;
+color: var(--olive); opacity: 0.6; flex-shrink: 0; width: 16px;
 }
 .sb-print-btn {
 margin: 24px 20px 0;
@@ -208,7 +208,7 @@ letter-spacing: 0.12em; text-transform: uppercase;
 color: var(--muted); border: 1px solid var(--border-sub);
 background: transparent; cursor: pointer; transition: all 0.2s;
 }
-.sb-print-btn:hover { border-color: var(--green); color: var(--green); }
+.sb-print-btn:hover { border-color: var(--olive); color: var(--olive); }
 .sb-related {
 margin: 16px 20px 0; padding: 14px 16px;
 border: 1px solid var(--border-sub);
@@ -242,11 +242,11 @@ transition: opacity 0.55s ease, transform 0.55s ease;
 display: flex; align-items: baseline; gap: 14px;
 margin-bottom: 20px; padding-bottom: 14px;
 border-bottom: 1px solid;
-border-image: linear-gradient(90deg, var(--green) 0%, transparent 70%) 1;
+border-image: linear-gradient(90deg, var(--olive) 0%, transparent 70%) 1;
 }
 .sec-num {
 font-family: 'DM Mono', monospace; font-size: 0.65rem;
-letter-spacing: 0.16em; color: var(--green); flex-shrink: 0;
+letter-spacing: 0.16em; color: var(--olive); flex-shrink: 0;
 }
 .sec-title {
 font-family: 'Cormorant Garamond', serif;
@@ -265,7 +265,7 @@ display: flex; align-items: center; gap: 8px;
 }
 .subsec-title::before {
 content: ''; width: 12px; height: 1px;
-background: var(--green); flex-shrink: 0;
+background: var(--olive); flex-shrink: 0;
 }
 
 p.doc-p {
@@ -287,19 +287,19 @@ line-height: 1.75; padding-left: 22px; position: relative;
 }
 .doc-list li::before {
 content: '-'; position: absolute; left: 0;
-color: var(--green); font-family: 'DM Mono', monospace;
+color: var(--olive); font-family: 'DM Mono', monospace;
 font-size: 0.7rem; top: 3px;
 }
 
 /* ── SPECIAL BLOCKS ── */
 .doc-highlight {
-border-left: 3px solid var(--green);
-background: var(--green-dim);
+border-left: 3px solid var(--olive);
+background: var(--olive-dim);
 padding: 14px 18px; margin: 16px 0;
 font-size: 0.845rem; color: var(--cream);
 line-height: 1.7; font-style: italic;
 }
-.doc-highlight strong { font-style: normal; font-weight: 600; color: var(--green); }
+.doc-highlight strong { font-style: normal; font-weight: 600; color: var(--olive); }
 
 .doc-highlight.gold {
 border-left-color: var(--gold);
@@ -312,14 +312,14 @@ border: 1px solid; padding: 14px 18px; margin: 16px 0;
 font-size: 0.835rem; line-height: 1.7;
 display: flex; gap: 12px; align-items: flex-start;
 }
-.doc-alert.green { border-color: var(--green-border); background: var(--green-dim); color: var(--cream); }
+.doc-alert.green { border-color: var(--olive-border); background: var(--olive-dim); color: var(--cream); }
 .doc-alert.warn  { border-color: var(--gold-border);  background: var(--gold-dim);  color: var(--cream); }
 .doc-alert.info  { border-color: var(--blue-border);  background: var(--blue-dim);  color: var(--cream); }
 .alert-icon {
 font-family: 'DM Mono', monospace; font-size: 0.6rem;
 letter-spacing: 0.1em; text-transform: uppercase; flex-shrink: 0; margin-top: 2px;
 }
-.doc-alert.green .alert-icon { color: var(--green); }
+.doc-alert.green .alert-icon { color: var(--olive); }
 .doc-alert.warn  .alert-icon { color: var(--gold); }
 .doc-alert.info  .alert-icon { color: var(--blue); }
 
@@ -327,10 +327,10 @@ letter-spacing: 0.1em; text-transform: uppercase; flex-shrink: 0; margin-top: 2p
 .data-table { width: 100%; border-collapse: collapse; margin: 16px 0; }
 .data-table th {
 font-family: 'DM Mono', monospace; font-size: 0.62rem;
-letter-spacing: 0.14em; text-transform: uppercase; color: var(--green);
+letter-spacing: 0.14em; text-transform: uppercase; color: var(--olive);
 text-align: left; padding: 10px 14px;
 border-bottom: 1px solid var(--border); font-weight: 400;
-background: var(--green-dim);
+background: var(--olive-dim);
 }
 .data-table td {
 padding: 10px 14px; font-size: 0.82rem; color: var(--text-body);
@@ -362,7 +362,7 @@ font-weight: 600; color: var(--cream); margin-bottom: 6px;
 .right-desc { font-size: 0.76rem; color: var(--muted); line-height: 1.6; }
 .right-art {
 font-family: 'DM Mono', monospace; font-size: 0.58rem;
-color: var(--green); letter-spacing: 0.1em; margin-top: 6px;
+color: var(--olive); letter-spacing: 0.1em; margin-top: 6px;
 text-transform: uppercase;
 }
 
@@ -373,7 +373,7 @@ margin: 16px 0; background: rgba(15,34,57,0.5);
 }
 .flow-label {
 font-family: 'DM Mono', monospace; font-size: 0.6rem;
-letter-spacing: 0.18em; text-transform: uppercase; color: var(--green);
+letter-spacing: 0.18em; text-transform: uppercase; color: var(--olive);
 margin-bottom: 20px;
 }
 .flow-steps {
@@ -393,7 +393,7 @@ margin-bottom: 4px;
 }
 .flow-step-desc { font-size: 0.65rem; color: var(--muted); line-height: 1.5; }
 .flow-arrow {
-font-family: 'DM Mono', monospace; color: var(--green);
+font-family: 'DM Mono', monospace; color: var(--olive);
 font-size: 1rem; padding: 0 4px; flex-shrink: 0;
 }
 
@@ -419,7 +419,7 @@ display: inline-block; font-family: 'DM Mono', monospace;
 font-size: 0.57rem; letter-spacing: 0.1em; text-transform: uppercase;
 padding: 2px 6px; border: 1px solid; border-radius: 0;
 }
-.badge-essential { border-color: var(--green-border); color: var(--green); }
+.badge-essential { border-color: var(--olive-border); color: var(--olive); }
 .badge-analytics  { border-color: var(--blue-border);  color: var(--blue);  }
 .badge-marketing  { border-color: var(--gold-border);  color: var(--gold);  }
 
@@ -430,7 +430,7 @@ background: rgba(15,34,57,0.4);
 }
 .toc-card-title {
 font-family: 'DM Mono', monospace; font-size: 0.62rem;
-letter-spacing: 0.2em; text-transform: uppercase; color: var(--green);
+letter-spacing: 0.2em; text-transform: uppercase; color: var(--olive);
 margin-bottom: 16px; padding-bottom: 10px;
 border-bottom: 1px solid var(--border-sub);
 }
@@ -442,18 +442,18 @@ display: flex; gap: 8px; align-items: baseline;
 font-size: 0.8rem; color: var(--muted); text-decoration: none;
 padding: 4px 0; transition: color 0.2s;
 }
-.toc-items li a:hover { color: var(--green); }
+.toc-items li a:hover { color: var(--olive); }
 .toc-items li a .ti-num {
 font-family: 'DM Mono', monospace; font-size: 0.62rem;
-color: var(--green); opacity: 0.6; flex-shrink: 0;
+color: var(--olive); opacity: 0.6; flex-shrink: 0;
 }
 
 .doc-divider { height: 1px; background: var(--border-sub); margin: 32px 0; }
 .cat-label {
 font-family: 'DM Mono', monospace; font-size: 0.6rem;
 letter-spacing: 0.16em; text-transform: uppercase;
-color: var(--green); border: 1px solid var(--green-border);
-background: var(--green-dim);
+color: var(--olive); border: 1px solid var(--olive-border);
+background: var(--olive-dim);
 padding: 4px 10px; display: inline-block; margin: 14px 0 8px;
 }
 
@@ -520,7 +520,7 @@ font-size: 0.65rem; color: rgba(245,240,232,0.22); letter-spacing: 0.05em;
 /* ── PROGRESS & BACK TOP ── */
 #read-progress {
 position: fixed; top: 0; left: 0; z-index: 300;
-height: 2px; background: var(--green); width: 0%;
+height: 2px; background: var(--olive); width: 0%;
 transition: width 0.1s linear;
 }
 #back-top {
@@ -528,12 +528,12 @@ position: fixed; bottom: 32px; right: 32px; z-index: 100;
 width: 40px; height: 40px; border: 1px solid var(--border);
 background: rgba(15,34,57,0.9);
 display: flex; align-items: center; justify-content: center;
-font-family: 'DM Mono', monospace; font-size: 0.7rem; color: var(--green);
+font-family: 'DM Mono', monospace; font-size: 0.7rem; color: var(--olive);
 cursor: pointer; opacity: 0; transition: opacity 0.3s, border-color 0.2s;
 text-decoration: none;
 }
 #back-top.visible { opacity: 1; }
-#back-top:hover { border-color: var(--green); }
+#back-top:hover { border-color: var(--olive); }
 
 /* ── RESPONSIVE ── */
 @media (max-width: 960px) {
@@ -581,9 +581,9 @@ body { background: white; color: #111; }
     <li><a href="sobre.html">Sobre</a></li>
     <li><a href="docs.html">Docs</a></li>
     <li><a href="blog.html">Blog</a></li>
-    <li><a href="telos-pricing.html">Preços</a></li>
+    <li><a href="oliver-pricing.html">Preços</a></li>
   </ul>
-  <a href="telos-pricing.html" class="nav-cta">Começar grátis</a>
+  <a href="oliver-pricing.html" class="nav-cta">Começar grátis</a>
 </nav>
 
 <!-- HERO -->
@@ -612,7 +612,7 @@ body { background: white; color: #111; }
   <div class="hero-notice">
     <span class="notice-icon">LGPD</span>
     <span class="notice-text">
-      Esta Política descreve como a <strong>Oliver Ltda. (Naoto Dev)</strong> coleta, usa, armazena e protege seus dados pessoais, em conformidade com a <strong>Lei nº 13.709/2018 (LGPD)</strong>. Leia com atenção. Dúvidas: <a href="mailto:ampla.ai@outlook.com" style="color:var(--green);text-decoration:none;">ampla.ai@outlook.com</a>
+      Esta Política descreve como a <strong>Oliver Ltda.</strong> coleta, usa, armazena e protege seus dados pessoais, em conformidade com a <strong>Lei nº 13.709/2018 (LGPD)</strong>. Leia com atenção. Dúvidas: <a href="mailto:ampla.ai@outlook.com" style="color:var(--olive);text-decoration:none;">ampla.ai@outlook.com</a>
     </span>
   </div>
 </div>
@@ -648,7 +648,7 @@ body { background: white; color: #111; }
       <span class="sb-related-label">Ver também</span>
       <a href="termos.html">Termos de Uso</a>
       <a href="docs.html">Documentação da API</a>
-      <a href="telos-pricing.html">Planos e Preços</a>
+      <a href="oliver-pricing.html">Planos e Preços</a>
     </div>
   </aside>
 
@@ -684,11 +684,11 @@ body { background: white; color: #111; }
     <span class="sec-num">01</span>
     <h2 class="sec-title">Quem somos - <em>Controladora dos Dados</em></h2>
   </div>
-  <p class="doc-p">A <strong>Oliver Ltda.</strong>, empresa brasileira registrada no Brasil, operando sob o nome fantasia <strong>Naoto Dev</strong>, é a Controladora dos dados pessoais coletados por meio dos Serviços Claudinei AI, API Sena V1.0 e demais produtos da Família Claudinei.</p>
-  <p class="doc-p">Na relação com clientes que integram nossa API em seus próprios produtos, a Naoto Dev também pode atuar como <strong>Operadora</strong> de dados pessoais de usuários finais, conforme definido pela LGPD. Nesse caso, o cliente é o Controlador e deverá garantir que tem base legal adequada para compartilhar dados com a Naoto Dev.</p>
+  <p class="doc-p">A <strong>Oliver Ltda.</strong>, empresa brasileira registrada no Brasil, é a Controladora dos dados pessoais coletados por meio dos Serviços Oliver AI, Oliver API V1.0 e demais produtos da Plataforma Oliver.</p>
+  <p class="doc-p">Na relação com clientes que integram nossa API em seus próprios produtos, a Oliver também pode atuar como <strong>Operadora</strong> de dados pessoais de usuários finais, conforme definido pela LGPD. Nesse caso, o cliente é o Controlador e deverá garantir que tem base legal adequada para compartilhar dados com a Oliver.</p>
   <div class="doc-alert green">
     <span class="alert-icon">Sede</span>
-    <span><strong>Oliver Ltda.</strong> - Brasil &nbsp;·&nbsp; Contato: <a href="mailto:ampla.ai@outlook.com" style="color:var(--green);">ampla.ai@outlook.com</a></span>
+    <span><strong>Oliver Ltda.</strong> - Brasil &nbsp;·&nbsp; Contato: <a href="mailto:ampla.ai@outlook.com" style="color:var(--olive);">ampla.ai@outlook.com</a></span>
   </div>
 </div>
 
@@ -727,7 +727,7 @@ body { background: white; color: #111; }
       <tr>
         <td>Conteúdo de conversas</td>
         <td>Prompts, respostas geradas, histórico de sessão</td>
-        <td>Uso do Claudinei AI (ver Seção 12)</td>
+        <td>Uso do Oliver AI (ver Seção 12)</td>
       </tr>
       <tr>
         <td>Técnicos</td>
@@ -748,7 +748,7 @@ body { background: white; color: #111; }
   </table>
 
   <div class="subsec-title">2.1 Dados que NÃO coletamos</div>
-  <p class="doc-p">A Naoto Dev <strong>nunca coleta</strong> intencionalmente:</p>
+  <p class="doc-p">A Oliver <strong>nunca coleta</strong> intencionalmente:</p>
   <ul class="doc-list">
     <li>Dados de saúde, biométricos ou genéticos (categorias sensíveis da LGPD);</li>
     <li>Dados de cartão de crédito em texto puro - processados exclusivamente pelo gateway de pagamento;</li>
@@ -781,7 +781,7 @@ body { background: white; color: #111; }
       <div class="flow-arrow">→</div>
       <div class="flow-step">
         <div class="flow-step-icon">🧠</div>
-        <div class="flow-step-label">Motor Sena</div>
+        <div class="flow-step-label">Oliver</div>
         <div class="flow-step-desc">Inferência em servidor no Brasil</div>
       </div>
       <div class="flow-arrow">→</div>
@@ -801,7 +801,7 @@ body { background: white; color: #111; }
 
   <div class="subsec-title">3.1 Finalidades do tratamento</div>
   <ul class="doc-list">
-    <li><strong>Prestação dos Serviços:</strong> autenticação, geração de respostas pelo Motor Sena, armazenamento de histórico (quando habilitado), cobrança por uso;</li>
+    <li><strong>Prestação dos Serviços:</strong> autenticação, geração de respostas pelo Oliver, armazenamento de histórico (quando habilitado), cobrança por uso;</li>
     <li><strong>Segurança e prevenção à fraude:</strong> detecção de abusos, rate limiting, análise de padrões anômalos de uso;</li>
     <li><strong>Melhoria dos Serviços:</strong> análise de métricas agregadas e anonimizadas de latência, qualidade e erros - sem acesso ao conteúdo das conversas nos planos pagos;</li>
     <li><strong>Comunicações:</strong> notificações sobre os Serviços, atualizações de segurança, alterações nesta Política;</li>
@@ -810,7 +810,7 @@ body { background: white; color: #111; }
   </ul>
 
   <div class="doc-highlight">
-    <strong>Princípio central:</strong> Seus dados servem para prestarmos o Serviço que você contratou - não para monetização por publicidade de terceiros ou venda de dados. A Naoto Dev não tem e não terá modelo de negócio baseado em venda de dados pessoais.
+    <strong>Princípio central:</strong> Seus dados servem para prestarmos o Serviço que você contratou - não para monetização por publicidade de terceiros ou venda de dados. A Oliver não tem e não terá modelo de negócio baseado em venda de dados pessoais.
   </div>
 </div>
 
@@ -820,7 +820,7 @@ body { background: white; color: #111; }
     <span class="sec-num">04</span>
     <h2 class="sec-title">Bases Legais - <em>LGPD Art. 7º</em></h2>
   </div>
-  <p class="doc-p">Todo tratamento de dados pela Naoto Dev está ancorado em ao menos uma das seguintes bases legais da Lei nº 13.709/2018:</p>
+  <p class="doc-p">Todo tratamento de dados pela Oliver está ancorado em ao menos uma das seguintes bases legais da Lei nº 13.709/2018:</p>
 
   <table class="data-table">
     <thead>
@@ -866,7 +866,7 @@ body { background: white; color: #111; }
   </div>
 
   <div class="doc-highlight gold">
-    <strong>Regra geral:</strong> A Naoto Dev não vende, aluga, cede ou comercializa dados pessoais de Usuários a terceiros para finalidades próprias desses terceiros. Ponto.
+    <strong>Regra geral:</strong> A Oliver não vende, aluga, cede ou comercializa dados pessoais de Usuários a terceiros para finalidades próprias desses terceiros. Ponto.
   </div>
 
   <div class="subsec-title">5.1 Compartilhamentos necessários à operação</div>
@@ -915,7 +915,7 @@ body { background: white; color: #111; }
   <ul class="doc-list">
     <li>Ordem judicial, administrativa ou de autoridade pública competente;</li>
     <li>Cumprimento de obrigação legal (ex.: Receita Federal, ANPD);</li>
-    <li>Proteção dos direitos, propriedade ou segurança da Naoto Dev, de seus Usuários ou de terceiros.</li>
+    <li>Proteção dos direitos, propriedade ou segurança da Oliver, de seus Usuários ou de terceiros.</li>
   </ul>
   <p class="doc-p">Nos esforçaremos para notificar o Usuário afetado sobre qualquer requisição de dados por autoridades, exceto quando proibido por lei ou ordem judicial.</p>
 
@@ -975,7 +975,7 @@ body { background: white; color: #111; }
   </table>
 
   <div class="subsec-title">6.1 Processo de exclusão</div>
-  <p class="doc-p">Ao solicitar exclusão de dados, a Naoto Dev:</p>
+  <p class="doc-p">Ao solicitar exclusão de dados, a Oliver:</p>
   <ul class="doc-list">
     <li>Confirmará o recebimento da solicitação em até 5 dias úteis;</li>
     <li>Executará a exclusão ou anonimização em até 15 dias úteis;</li>
@@ -1004,7 +1004,7 @@ body { background: white; color: #111; }
   <ul class="doc-list">
     <li>Autenticação por JWT com expiração configurável e rotação de chaves;</li>
     <li>Senhas armazenadas como hash BCrypt com salt único;</li>
-    <li>Chaves de API prefixadas (<code>telos_sk_</code>) com escopo de permissões;</li>
+    <li>Chaves de API prefixadas (<code>oliver_sk_</code>) com escopo de permissões;</li>
     <li>Suporte a autenticação de dois fatores (2FA) nos planos Pro+.</li>
   </ul>
 
@@ -1035,7 +1035,7 @@ body { background: white; color: #111; }
     <span class="sec-num">08</span>
     <h2 class="sec-title">Cookies e Tecnologias de <em>Rastreamento</em></h2>
   </div>
-  <p class="doc-p">Usamos cookies e tecnologias similares (localStorage, sessionStorage, pixels) nos produtos web da Família Claudinei. O consentimento para cookies não essenciais é coletado de forma granular, prévia e informada, conforme exigido pela LGPD.</p>
+  <p class="doc-p">Usamos cookies e tecnologias similares (localStorage, sessionStorage, pixels) nos produtos web da Plataforma Oliver. O consentimento para cookies não essenciais é coletado de forma granular, prévia e informada, conforme exigido pela LGPD.</p>
 
   <table class="cookie-table">
     <thead>
@@ -1134,10 +1134,10 @@ body { background: white; color: #111; }
   </div>
 
   <div class="subsec-title">9.1 Prazos de resposta</div>
-  <p class="doc-p">A Naoto Dev responderá a todas as solicitações de direitos em até <strong>15 (quinze) dias úteis</strong>. Em casos de maior complexidade, poderemos prorrogar esse prazo por igual período, informando o titular por e-mail.</p>
+  <p class="doc-p">A Oliver responderá a todas as solicitações de direitos em até <strong>15 (quinze) dias úteis</strong>. Em casos de maior complexidade, poderemos prorrogar esse prazo por igual período, informando o titular por e-mail.</p>
 
   <div class="subsec-title">9.2 Reclamações à ANPD</div>
-  <p class="doc-p">Se você considerar que não atendemos adequadamente sua solicitação, tem o direito de apresentar reclamação à <strong>Autoridade Nacional de Proteção de Dados (ANPD)</strong>, conforme Art. 18, § 1º da LGPD, pelo portal <a href="https://www.gov.br/anpd" style="color:var(--green);">gov.br/anpd</a>.</p>
+  <p class="doc-p">Se você considerar que não atendemos adequadamente sua solicitação, tem o direito de apresentar reclamação à <strong>Autoridade Nacional de Proteção de Dados (ANPD)</strong>, conforme Art. 18, § 1º da LGPD, pelo portal <a href="https://www.gov.br/anpd" style="color:var(--olive);">gov.br/anpd</a>.</p>
 </div>
 
 <!-- ═══════════════════════════════════════════════ S10 -->
@@ -1148,7 +1148,7 @@ body { background: white; color: #111; }
   </div>
   <div class="doc-alert warn">
     <span class="alert-icon">Atenção</span>
-    <span>Os Serviços da Naoto Dev são destinados a pessoas com <strong>18 anos ou mais</strong>, ou a pessoas jurídicas representadas por maiores de 18 anos. <strong>Não coletamos intencionalmente dados de crianças menores de 13 anos.</strong></span>
+    <span>Os Serviços da Oliver são destinados a pessoas com <strong>18 anos ou mais</strong>, ou a pessoas jurídicas representadas por maiores de 18 anos. <strong>Não coletamos intencionalmente dados de crianças menores de 13 anos.</strong></span>
   </div>
   <p class="doc-p">Se tomarmos conhecimento de que coletamos dados de uma criança menor de 13 anos sem o consentimento verificável dos pais ou responsáveis, excluiremos imediatamente essas informações. Se você acredita que isso ocorreu, entre em contato pelo e-mail <a href="mailto:ampla.ai@outlook.com">ampla.ai@outlook.com</a>.</p>
   <p class="doc-p">Para usuários entre 13 e 17 anos, o uso dos Serviços só é permitido com consentimento expresso dos pais ou responsáveis legais, que assumirão plena responsabilidade, conforme Arts. 14 e 15 da LGPD.</p>
@@ -1178,7 +1178,7 @@ body { background: white; color: #111; }
     <span class="sec-num">12</span>
     <h2 class="sec-title">IA Generativa e <em>seus Dados</em></h2>
   </div>
-  <p class="doc-p">Esta seção é especialmente importante para entender como o conteúdo que você envia ao Motor Sena é tratado:</p>
+  <p class="doc-p">Esta seção é especialmente importante para entender como o conteúdo que você envia ao Oliver é tratado:</p>
 
   <div class="subsec-title">12.1 Plano Free</div>
   <ul class="doc-list">
@@ -1189,10 +1189,10 @@ body { background: white; color: #111; }
 
   <div class="subsec-title">12.2 Planos Pro, Scale e Enterprise</div>
   <div class="doc-highlight">
-    <strong>Garantia:</strong> O conteúdo que você envia via API (prompts, respostas, histórico) <strong>não é utilizado para treinar ou melhorar o Motor Sena ou qualquer outro modelo</strong>. Seus dados são usados exclusivamente para gerar a resposta que você solicitou.
+    <strong>Garantia:</strong> O conteúdo que você envia via API (prompts, respostas, histórico) <strong>não é utilizado para treinar ou melhorar o Oliver ou qualquer outro modelo</strong>. Seus dados são usados exclusivamente para gerar a resposta que você solicitou.
   </div>
   <ul class="doc-list">
-    <li>O conteúdo de conversas <strong>não é acessado por funcionários</strong> da Naoto Dev, exceto mediante ordem judicial ou com sua solicitação explícita de suporte técnico;</li>
+    <li>O conteúdo de conversas <strong>não é acessado por funcionários</strong> da Oliver, exceto mediante ordem judicial ou com sua solicitação explícita de suporte técnico;</li>
     <li>Metadados de uso (contagem de tokens, latência, status HTTP) continuam sendo coletados para fins de cobrança e monitoramento;</li>
     <li>Clientes Enterprise podem solicitar <strong>isolamento total de dados</strong> com instância dedicada e DPA específico.</li>
   </ul>
@@ -1227,7 +1227,7 @@ body { background: white; color: #111; }
   </table>
 
   <div class="subsec-title">12.4 Responsabilidade sobre Conteúdo do Usuário</div>
-  <p class="doc-p">O Usuário é responsável por garantir que o conteúdo que envia ao Motor Sena não contém dados pessoais de terceiros sem a devida autorização. Ao enviar dados de terceiros, o Usuário declara ter a base legal adequada (LGPD) para fazê-lo.</p>
+  <p class="doc-p">O Usuário é responsável por garantir que o conteúdo que envia ao Oliver não contém dados pessoais de terceiros sem a devida autorização. Ao enviar dados de terceiros, o Usuário declara ter a base legal adequada (LGPD) para fazê-lo.</p>
 </div>
 
 <!-- ═══════════════════════════════════════════════ S13 -->
@@ -1236,7 +1236,7 @@ body { background: white; color: #111; }
     <span class="sec-num">13</span>
     <h2 class="sec-title">Alterações nesta <em>Política</em></h2>
   </div>
-  <p class="doc-p">A Naoto Dev pode atualizar esta Política de Privacidade periodicamente para refletir mudanças nos Serviços, na legislação ou em nossas práticas. Em caso de alterações materiais:</p>
+  <p class="doc-p">A Oliver pode atualizar esta Política de Privacidade periodicamente para refletir mudanças nos Serviços, na legislação ou em nossas práticas. Em caso de alterações materiais:</p>
   <ul class="doc-list">
     <li>Notificaremos por e-mail com no mínimo <strong>30 dias de antecedência</strong> para usuários de planos pagos;</li>
     <li>Notificaremos por e-mail com no mínimo <strong>15 dias de antecedência</strong> para o Plano Free;</li>
@@ -1253,14 +1253,14 @@ body { background: white; color: #111; }
     <span class="sec-num">14</span>
     <h2 class="sec-title">Contato e <em>Encarregado de Dados (DPO)</em></h2>
   </div>
-  <p class="doc-p">Para exercer seus direitos, esclarecer dúvidas ou registrar reclamações sobre o tratamento de seus dados pessoais pela Naoto Dev, entre em contato com nosso Encarregado de Proteção de Dados (DPO), conforme Art. 41 da LGPD:</p>
+  <p class="doc-p">Para exercer seus direitos, esclarecer dúvidas ou registrar reclamações sobre o tratamento de seus dados pessoais pela Oliver, entre em contato com nosso Encarregado de Proteção de Dados (DPO), conforme Art. 41 da LGPD:</p>
 
   <div class="doc-alert green">
     <span class="alert-icon">DPO</span>
     <div>
-      <strong style="display:block;color:var(--cream);margin-bottom:4px;">Encarregado de Proteção de Dados - Naoto Dev</strong>
+      <strong style="display:block;color:var(--cream);margin-bottom:4px;">Encarregado de Proteção de Dados - Oliver</strong>
       <span style="font-size:0.82rem;color:var(--muted);">
-        E-mail: <a href="mailto:ampla.ai@outlook.com?subject=Privacidade LGPD" style="color:var(--green);">ampla.ai@outlook.com</a> (assunto: "Privacidade LGPD")<br>
+        E-mail: <a href="mailto:ampla.ai@outlook.com?subject=Privacidade LGPD" style="color:var(--olive);">ampla.ai@outlook.com</a> (assunto: "Privacidade LGPD")<br>
         Prazo de resposta: até 15 dias úteis<br>
         Idioma: Português (BR)
       </span>
@@ -1317,11 +1317,11 @@ body { background: white; color: #111; }
     <li><a href="sobre.html">Sobre</a></li>
     <li><a href="docs.html">Docs</a></li>
     <li><a href="termos.html">Termos de Uso</a></li>
-    <li><a href="telos-pricing.html">Preços</a></li>
+    <li><a href="oliver-pricing.html">Preços</a></li>
   </ul>
   <div class="footer-right">
     <a href="mailto:ampla.ai@outlook.com">ampla.ai@outlook.com</a><br>
-    © 2026 Oliver Ltda. — Naoto Dev
+    © 2026 Oliver Ltda.
   </div>
 </footer>
 
